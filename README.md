@@ -1,40 +1,13 @@
-🎓 Student Success Analytics : 2e Science A
-📌 Présentation du Projet
-Ce projet de Machine Learning est un système d'alerte précoce destiné à l'établissement scolaire. Son but est de prédire, dès le milieu de l'année, quels élèves risquent d'échouer afin de mettre en place un tutorat ciblé.
+🏦 Système d'Aide à la Décision d'Emprunt Bancaire
+Ce projet consiste en une solution d'analyse prédictive permettant de déterminer l'éligibilité d'un client à un prêt bancaire. L'outil s'appuie sur le machine learning pour fournir des décisions rapides, précises et surtout transparentes.
 
-Au lieu d'attendre les résultats de fin d'année, l'IA analyse les notes du premier semestre pour anticiper les difficultés.
+🎯 Objectifs du Projet
+L'objectif principal est d'automatiser le processus d'octroi de crédit tout en garantissant une totale clarté sur les raisons du refus ou de l'acceptation.
 
-🎯 Objectif
-Prédire la réussite ou l'échec final (seuil de 50%).
+Précision : Évaluer la solvabilité du client en fonction de ses données personnelles et financières.
 
-Identifier les facteurs clés de l'échec (notes, progression, âge).
+Rapidité : Réduire le temps de traitement des dossiers de demande de prêt.
 
-Agir en générant une liste d'intervention prioritaire pour les professeurs.
+Transparence : Fournir une décision justifiable (interprétabilité du modèle) pour instaurer une relation de confiance entre la banque et le client.
 
-📊 Fonctionnement du Système (6 Étapes)
-Collecte : Importation du fichier dataset_info_2e_science_A.csv.
-
-Préparation : Nettoyage des données et calcul de la progression de l'élève.
-
-Visualisation : Création de graphiques pour comprendre la santé globale de la classe.
-
-Intelligence Artificielle : Utilisation de l'algorithme Random Forest pour apprendre les profils d'élèves.
-
-Évaluation : Test de précision du modèle (vérification de sa fiabilité).
-
-Décision : Génération d'un graphique de risque et d'une liste d'élèves à convoquer.
-
-
-📈 Résultats Attendus
-Précision du modèle : Un score élevé (ex: >85%) indiquant que l'IA se trompe rarement.
-
-Importance des facteurs : Un graphique montrant si l'examen ou la progression est le plus important.
-
-Liste d'Alerte : Un tableau clair classant les élèves du plus risqué au moins risqué.
-
-📋 Exemple de Sortie (Alerte)
-Nom      Rebecca  |  Sarah    |   Daniel
-Postnom  Mbayo    |  Mukendi   |  Kabongo
-Risque   89%      |  72%       | 45%
-d'Échec 🔴 Élevé | 🔴 Élevé  |  🟠 Modéré
-Niveau  d'Urgence |  Urgent    |  Surveillance
+Visualisation : Offrir des outils graphiques pour comprendre les facteurs influençant la décision.
